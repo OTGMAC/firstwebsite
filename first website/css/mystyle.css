@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("mystyle.css");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header{
+	background: #AC28A2;
+	
+}
+
+h1{
+	color: aliceblue;
+	align-items: center;
+}
+
+.girl{
+	height: 300px;
+	float: left;
+	margin: 20px;
+	padding: 20px;
+	margin-top: 200px;
+}
+
+.intro{
+	color: crimson;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 40px;
+	display: flex;
+	width: 400px;
+	height: 50px;
+	border: thick;
+	border: dashed;
+	border-color: darkcyan;
+	
+}
+
+.buas-link{
+	font-size: 60px;
+	background-color: chartreuse;
+	border: dotted;
+	border-color:chocolate;
+	display: inline-flex;
+	text-align: center;
+}
+
+body{
+	background-image: url(../images/neon-sign.jpg);
+	background-repeat: no-repeat;
+    background-position: right top;
+	background-attachment: scroll;
+	background-size: cover;
+}
+
+.big-text{
+	color: coral;
+	background-color: lightgrey;
+	background-position: center;
+	font: "Lacquer Regular";
+	font-size: 20px;
+	margin: 30px;
+	margin-top: 200px;
+}
+.title {
+	font-size: 60px;
+	color: blue;
+	font: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	align-self: center;
+	
+}
+
+h1{
+	text-align: center;
+}
+
+
+
+.footer {
+	background-color: firebrick;
+	margin-top: 250px;
+	
+}
+@media screen{
+.header .title {
+	align-content: center;
+}
+
+}
